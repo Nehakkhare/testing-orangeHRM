@@ -73,7 +73,6 @@ public class OrangeHRM {
 		driver.findElement(By.linkText("Job Titles")).click();
 		implicitWait(3);
 		// driver.findElements(By.xpath("//span[@data-v-5ba85061]")).get(13).click();
-		// implicitWait(3);
 		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")).click();
 		implicitWait(3);
 		driver.findElement(By.xpath("//div[@data-v-2fe357a6]//input[@data-v-844e87dc]")).sendKeys("IT Manager");
