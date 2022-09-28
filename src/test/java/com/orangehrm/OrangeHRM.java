@@ -33,6 +33,8 @@ public class OrangeHRM {
 				By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"))
 				.submit();
 		implicitWait(3);
+		//driver.findElement(By.xpath("//div[@class='orangehrm-login-forgot']")).click();
+		implicitWait(3);
 	}
 
 	@Test
