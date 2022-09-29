@@ -35,6 +35,7 @@ public class OrangeHRM {
 		implicitWait(3);
 		//driver.findElement(By.xpath("//div[@class='orangehrm-login-forgot']")).click();
 		implicitWait(3);
+		driver.navigate().refresh();
 	}
 
 	@Test
